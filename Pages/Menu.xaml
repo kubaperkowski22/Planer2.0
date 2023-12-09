@@ -1,0 +1,98 @@
+﻿<Page x:Class="Planer_2._0.Pages.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Planer_2._0.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Menu">
+
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="267"/>
+            <ColumnDefinition Width="266"/>
+            <ColumnDefinition Width="267"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="225"/>
+            <RowDefinition Height="225"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="AddNewPlan_BT"
+                Grid.Column="0"
+                Grid.Row="0"
+                Width="170"
+                Height="80"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                Margin="20"
+                Content="Dodaj nowy plan"
+                FontSize="20"
+                Click="AddNewPlan_BT_Click"/>
+        
+        <Button x:Name="EditPlan_BT"
+                Grid.Column="1"
+                Grid.Row="0"
+                Width="170"
+                Height="80"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Center"
+                Margin="20"
+                Content="Edytuj plan"
+                FontSize="20"
+                Click="EditPlan_BT_Click"/>
+        
+        <Button x:Name="BrowsePlans_BT"
+                Grid.Column="2"
+                Grid.Row="0"
+                Width="170"
+                Height="80"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="20"
+                Content="Przeglądaj plany"
+                FontSize="20"
+                Click="BrowsePlans_BT_Click"/>
+        
+        <Button x:Name="SavePlan_BT"
+                Grid.Column="0"
+                Grid.Row="1"
+                Width="170"
+                Height="80"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Margin="20"
+                Content="Zapisz plan"
+                FontSize="20"
+                Click="SavePlan_BT_Click"/>
+        
+        <Button x:Name="OpenPlan_BT"
+                Grid.Column="1"
+                Grid.Row="1"
+                Width="170"
+                Height="80"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Margin="20"
+                Content="Otwórz plan"
+                FontSize="20"
+                Click="OpenPlan_BT_Click"/>
+        
+        <Button x:Name="Back_BT"
+                Grid.Column="2"
+                Grid.Row="1"
+                Width="170"
+                Height="80"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="20"
+                Content="Powrót"
+                FontSize="20"
+                />
+    </Grid>
+
+    
+
+</Page>

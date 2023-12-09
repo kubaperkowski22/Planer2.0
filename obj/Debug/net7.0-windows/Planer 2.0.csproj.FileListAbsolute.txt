@@ -1,0 +1,26 @@
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\Planer 2.0.exe
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\Planer 2.0.deps.json
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\Planer 2.0.runtimeconfig.json
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\Planer 2.0.dll
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\Planer 2.0.pdb
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0_MarkupCompile.cache
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0_MarkupCompile.lref
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.g.resources
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.AssemblyInfoInputs.cache
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.AssemblyInfo.cs
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.csproj.CoreCompileInputs.cache
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.dll
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\refint\Planer 2.0.dll
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.pdb
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.genruntimeconfig.cache
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\ref\Planer 2.0.dll
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\bin\Debug\net7.0-windows\MvvmCross.dll
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.csproj.AssemblyReference.cache
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Planer 2.0.csproj.CopyComplete
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Pages\Menu.g.cs
+C:\Users\kubap\Desktop\Semestr V\KCK\Planer 2.0\obj\Debug\net7.0-windows\Pages\Menu.baml
