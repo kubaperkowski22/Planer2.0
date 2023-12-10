@@ -25,8 +25,6 @@ namespace Planer_2._0
         {
             InitializeComponent();
         }
-        MainWindowVM ViewModel = new MainWindowVM();
-        
 
         private void Start_BT_Click(object sender, RoutedEventArgs e)
         {
@@ -37,12 +35,7 @@ namespace Planer_2._0
 
         private void Close_BT_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel.Close_BT_Click();
-        }
-
-        private void Grid_Click(object sender, RoutedEventArgs e)
-        {
-            
+            System.Environment.Exit(0);
         }
     }
 }

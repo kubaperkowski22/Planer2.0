@@ -4,12 +4,100 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Planer_2._0.Pages"
+      xmlns:n="clr-namespace:Planer_2._0"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="550" d:DesignWidth="800"
       Title="NewPlan">
 
-    <Grid>
-        <TextBlock Text="hejka"
-                   FontSize="50"/>
+    <Grid DataContext="{Binding RelativeSource={RelativeSource Self}}">
+        <StackPanel>
+            
+            <TextBlock Text="Nowy plan"
+                   FontSize="50"
+                   HorizontalAlignment="Center"
+                       Margin="0 20 0 25"/>
+            
+            <WrapPanel Margin="7">
+                <Label Content="Nazwa: "
+                   FontSize="20"/>
+                <TextBox x:Name="EventName_TB"
+                         Width="350"
+                         ToolTip="Podaj nazwę wydarznia."
+                         FontSize="18"
+                         Text="{Binding DataContext.EventName}"
+                         LostFocus="EventName_TB_LostFocus"/>
+            </WrapPanel>
+
+            <WrapPanel Margin="7">
+                <Label Content="Data zakończenia: "
+                       FontSize="20"
+                       VerticalAlignment="Center"/>
+                <Calendar x:Name="Calendar_Box"
+                          LostFocus="Calendar_Box_LostFocus"
+                          SelectedDate="{Binding DataContext.Date}">
+
+                    <Calendar.BlackoutDates>
+                        <CalendarDateRange Start="1/1/1000" End="9/12/2023"/>
+                    </Calendar.BlackoutDates>
+                </Calendar>
+            </WrapPanel>
+
+            <WrapPanel Margin="15 7 7 7">
+                <Label Content="Priorytet: "
+                       FontSize="20"
+                       VerticalAlignment="Center"/>
+                <ComboBox x:Name="Priority_CB"
+                          Width="60"
+                          LostFocus="Priority_CB_LostFocus"
+                          FontSize="15">
+                    <ComboBoxItem Content="1"></ComboBoxItem>
+                    <ComboBoxItem Content="2"></ComboBoxItem>
+                    <ComboBoxItem Content="3"></ComboBoxItem>
+                    <ComboBoxItem Content="4"></ComboBoxItem>
+                    <ComboBoxItem Content="5"></ComboBoxItem>
+                    <ComboBoxItem Content="6"></ComboBoxItem>
+                    <ComboBoxItem Content="7"></ComboBoxItem>
+                    <ComboBoxItem Content="8"></ComboBoxItem>
+                    <ComboBoxItem Content="9"></ComboBoxItem>
+                    <ComboBoxItem Content="10"></ComboBoxItem>
+                </ComboBox>
+            </WrapPanel>
+
+            <WrapPanel Margin="7">
+                <Label Content="Kategoria: "
+                       FontSize="20"
+                       VerticalAlignment="Center"/>
+                <ComboBox x:Name="Category_CB"
+                          Width="250"
+                          LostFocus="Category_CB_LostFocus"
+                          FontSize="15">
+                    <ComboBoxItem Content="Sport"></ComboBoxItem>
+                    <ComboBoxItem Content="Relaks"></ComboBoxItem>
+                    <ComboBoxItem Content="Praca"></ComboBoxItem>
+                    <ComboBoxItem Content="Jedzenie"></ComboBoxItem>
+                    <ComboBoxItem Content="Motoryzacja"></ComboBoxItem>
+                    <ComboBoxItem Content="Zdrowie"></ComboBoxItem>
+                    <ComboBoxItem Content="Gry"></ComboBoxItem>
+                    <ComboBoxItem Content="Nauka"></ComboBoxItem>
+                </ComboBox>
+            </WrapPanel>
+
+            <n:NavButton x:Name="Apply_BT"
+                Text="Zastosuj"
+                Width="80"
+                Height="25"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                Margin="20"
+                Content="Dodaj nowy plan"
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
+                FontSize="15"
+                NavUri="/Pages/Menu.xaml"
+                Click="Apply_BT_Click"
+                />
+
+        </StackPanel>
     </Grid>
 </Page>

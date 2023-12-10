@@ -14,7 +14,7 @@ namespace Planer_2._0.ViewModels
 
         public void Close_BT_Click()
         {
-            System.Environment.Exit(0);
+            
         }
 
         public void Start_BT_Click()

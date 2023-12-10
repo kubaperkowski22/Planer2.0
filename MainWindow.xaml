@@ -5,10 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Planer_2._0"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="550" Width="800">
 
-    <Grid ButtonBase.Click="Grid_Click">
-
+    <Grid>
         <Frame x:Name="MenuFrame"
                Source="/Pages/Menu.xaml"
                NavigationUIVisibility="Hidden"
