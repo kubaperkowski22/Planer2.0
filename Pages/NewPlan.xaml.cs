@@ -23,8 +23,8 @@ namespace Planer_2._0.Pages
         public NewPlan()
         {
             InitializeComponent();
-
-          //  this.DataContext = new Plan();
+            
+            this.DataContext = new Plan();
         }
 
         Plan Plan = new Plan();

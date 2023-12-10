@@ -36,5 +36,10 @@ namespace Planer_2._0.Pages
         {
             System.Environment.Exit(0);
         }
+
+        private void AddNewPlan_BT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

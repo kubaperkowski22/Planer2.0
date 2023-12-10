@@ -58,3 +58,5 @@ C:\Users\kubap\OneDrive\Pulpit\Studia\KCK\Planer2.0\obj\Debug\net7.0-windows\Pla
 C:\Users\kubap\OneDrive\Pulpit\Studia\KCK\Planer2.0\obj\Debug\net7.0-windows\ref\Planer 2.0.dll
 C:\Users\kubap\OneDrive\Pulpit\Studia\KCK\Planer2.0\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\kubap\OneDrive\Pulpit\Studia\KCK\Planer2.0\obj\Debug\net7.0-windows\Themes\Generic.baml
+C:\Users\kubap\OneDrive\Pulpit\Studia\KCK\Planer2.0\obj\Debug\net7.0-windows\Pages\PlanBrowser.g.cs
+C:\Users\kubap\OneDrive\Pulpit\Studia\KCK\Planer2.0\obj\Debug\net7.0-windows\Pages\PlanBrowser.baml

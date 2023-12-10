@@ -45,6 +45,7 @@
                 BorderBrush="Black"
                 FontSize="20"
                 NavUri="/Pages/NewPlan.xaml"
+                Click="AddNewPlan_BT_Click"
                 />
 
         <n:NavButton x:Name="EditPlan_BT"

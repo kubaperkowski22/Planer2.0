@@ -24,7 +24,7 @@
                          Width="350"
                          ToolTip="Podaj nazwę wydarznia."
                          FontSize="18"
-                         Text="{Binding DataContext.EventName}"
+                         Text="{Binding EventName}"
                          LostFocus="EventName_TB_LostFocus"/>
             </WrapPanel>
 
