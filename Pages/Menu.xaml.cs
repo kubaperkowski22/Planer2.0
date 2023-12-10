@@ -25,25 +25,16 @@ namespace Planer_2._0.Pages
             InitializeComponent();
         }
 
-        private void AddNewPlan_BT_Click(object sender, RoutedEventArgs e)
+        private void Grid_Click(object sender, RoutedEventArgs e)
         {
+            var ClickedButton = e.OriginalSource as NavButton;
 
+            NavigationService.Navigate(ClickedButton.NavUri);
         }
-        private void EditPlan_BT_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
-        private void BrowsePlans_BT_Click(object sender, RoutedEventArgs e)
+        private void Close_BT_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-        private void SavePlan_BT_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-        private void OpenPlan_BT_Click(object sender, RoutedEventArgs e)
-        {
-
+            System.Environment.Exit(0);
         }
     }
 }

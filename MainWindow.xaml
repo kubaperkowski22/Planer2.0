@@ -6,37 +6,55 @@
         xmlns:local="clr-namespace:Planer_2._0"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-            
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="90"/>
-            <RowDefinition Height="60"/>
-        </Grid.RowDefinitions>
-        
-        <TextBlock Text="Witaj w planerze!"
-                   HorizontalAlignment="Center"
-                   FontSize="60"
-                   Grid.Row="2"/>
-        <WrapPanel Grid.Row="3"
-                   HorizontalAlignment="Center">
-            <Button Name="Start_BT"
-                    Width="160"
-                    Height="50"
-                    Margin="0 0 30 0"
-                    Content="Rozpocznij"
-                    FontSize="20"
-                    Click="Start_BT_Click"
-                    />
-            <Button Name="Close_BT"
-                    Width="160"
-                    Height="50"
-                    Content="Zakończ"
-                    FontSize="20"
-                    Click="Close_BT_Click"/>
-        </WrapPanel>
 
+    <Grid ButtonBase.Click="Grid_Click">
+
+        <Frame x:Name="MenuFrame"
+               Source="/Pages/Menu.xaml"
+               NavigationUIVisibility="Hidden"
+               Visibility="Hidden"/>
+
+        <StackPanel x:Name="Welcome_SP">
+            
+            <TextBlock Text="Witaj w planerze!"
+                       HorizontalAlignment="Center"
+                       FontSize="60"
+                       Grid.Row="2"
+                       Margin="0 100 0 20"/>
+            
+            <WrapPanel Grid.Row="3"
+                       HorizontalAlignment="Center">
+
+                <local:NavButton x:Name="Start_BT"
+                             Text="Rozpocznij"
+                             Width="160"
+                             Height="50"
+                             Margin="5"
+                             VerticalAlignment="Center"
+                             HorizontalAlignment="Center"
+                             Background="#FFDDDDDD"
+                             BorderThickness="0.7"
+                             BorderBrush="Black"
+                             FontSize="20"
+                             NavUri="/Pages/Menu.xaml"
+                             Click="Start_BT_Click"/>
+
+                <local:NavButton x:Name="Close_BT"
+                             Text="Zakończ"
+                             Width="160"
+                             Height="50"
+                             Margin="5"
+                             VerticalAlignment="Center"
+                             HorizontalAlignment="Center"
+                             Background="#FFDDDDDD"
+                             BorderThickness="0.7"
+                             BorderBrush="Black"
+                             FontSize="20"
+                             Click="Close_BT_Click"/>
+            </WrapPanel>
+        </StackPanel>
+        
+        
 
     </Grid>
 </Window>

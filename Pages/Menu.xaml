@@ -4,93 +4,123 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Planer_2._0.Pages"
+      xmlns:n="clr-namespace:Planer_2._0"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Menu">
 
     
-    <Grid>
+    <Grid ButtonBase.Click="Grid_Click">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="267"/>
             <ColumnDefinition Width="266"/>
             <ColumnDefinition Width="267"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="225"/>
-            <RowDefinition Height="225"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="180"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="AddNewPlan_BT"
+        <TextBlock Grid.Row="0"
+                   Grid.Column="1"
+                   Text="Menu"
+                   FontSize="80"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontWeight="SemiBold"/>
+
+        <n:NavButton x:Name="AddNewPlan_BT"
                 Grid.Column="0"
-                Grid.Row="0"
+                Grid.Row="1"
+                Text="Dodaj nowy plan"
                 Width="170"
                 Height="80"
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="Right"
                 Margin="20"
                 Content="Dodaj nowy plan"
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
                 FontSize="20"
-                Click="AddNewPlan_BT_Click"/>
-        
-        <Button x:Name="EditPlan_BT"
+                NavUri="/Pages/NewPlan.xaml"
+                />
+
+        <n:NavButton x:Name="EditPlan_BT"
                 Grid.Column="1"
-                Grid.Row="0"
+                Grid.Row="1"
                 Width="170"
                 Height="80"
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="Center"
                 Margin="20"
-                Content="Edytuj plan"
+                Text="Edytuj plan"
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
                 FontSize="20"
-                Click="EditPlan_BT_Click"/>
-        
-        <Button x:Name="BrowsePlans_BT"
+                />
+
+        <n:NavButton x:Name="BrowsePlans_BT"
                 Grid.Column="2"
-                Grid.Row="0"
+                Grid.Row="1"
                 Width="170"
                 Height="80"
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="Left"
                 Margin="20"
-                Content="Przeglądaj plany"
+                Text="Przeglądaj plany"
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
                 FontSize="20"
-                Click="BrowsePlans_BT_Click"/>
-        
-        <Button x:Name="SavePlan_BT"
+                />
+
+        <n:NavButton x:Name="SavePlan_BT"
                 Grid.Column="0"
-                Grid.Row="1"
+                Grid.Row="2"
                 Width="170"
                 Height="80"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Right"
                 Margin="20"
-                Content="Zapisz plan"
+                Text="Zapisz plan"
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
                 FontSize="20"
-                Click="SavePlan_BT_Click"/>
-        
-        <Button x:Name="OpenPlan_BT"
+                />
+
+        <n:NavButton x:Name="OpenPlan_BT"
                 Grid.Column="1"
-                Grid.Row="1"
+                Grid.Row="2"
                 Width="170"
                 Height="80"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Center"
                 Margin="20"
-                Content="Otwórz plan"
+                Text="Otwórz plan"
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
                 FontSize="20"
-                Click="OpenPlan_BT_Click"/>
+                />
         
-        <Button x:Name="Back_BT"
+        <n:NavButton x:Name="Close_BT"
                 Grid.Column="2"
-                Grid.Row="1"
+                Grid.Row="2"
                 Width="170"
                 Height="80"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Margin="20"
-                Content="Powrót"
+                Text="Zakończ"
                 FontSize="20"
-                />
+                Background="#FFDDDDDD"
+                BorderThickness="0.7"
+                BorderBrush="Black"
+                Click="Close_BT_Click"/>
     </Grid>
 
     

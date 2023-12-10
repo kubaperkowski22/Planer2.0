@@ -26,16 +26,23 @@ namespace Planer_2._0
             InitializeComponent();
         }
         MainWindowVM ViewModel = new MainWindowVM();
+        
 
         private void Start_BT_Click(object sender, RoutedEventArgs e)
         {
-            var menu = new Menu();
-            menu.show();
+            MenuFrame.Visibility = Visibility.Visible;
+
+            Welcome_SP.Visibility = Visibility.Hidden;
         }
 
         private void Close_BT_Click(object sender, RoutedEventArgs e)
         {
             ViewModel.Close_BT_Click();
+        }
+
+        private void Grid_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

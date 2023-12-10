@@ -10,12 +10,21 @@
     <Compile Update="Pages\Menu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\NewPlan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\NewPlan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

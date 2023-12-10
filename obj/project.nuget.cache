@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LIKbq5JFcd02k3d1/rrc+ENNcj+6b0TeREwgRkMsxuLTlI7uPvs2VsBLIDftmFetjgtz8GGwn2aao4O9feAENQ==",
+  "dgSpecHash": "eoyjVmk4DTxjt0/J3x+8/pdfzme9zknKei+KhVcham2f6tP6Xrekw9+q6ZKXcEnb/iUXZPoSuTpopsGm2seywA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kubap\\Desktop\\Semestr V\\KCK\\Planer 2.0\\Planer 2.0.csproj",
+  "projectFilePath": "C:\\Users\\kubap\\OneDrive\\Pulpit\\Studia\\KCK\\Planer2.0\\Planer 2.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kubap\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\kubap\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
